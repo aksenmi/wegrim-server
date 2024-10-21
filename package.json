@@ -1,0 +1,51 @@
+{
+  "name": "wegrim",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.17.6",
+    "@prisma/client": "^5.18.0",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/ssr": "^0.4.0",
+    "@supabase/supabase-js": "^2.45.1",
+    "@types/fabric": "^5.3.8",
+    "cookies-next": "^4.2.1",
+    "dayjs": "^1.11.13",
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "next": "14.2.5",
+    "prisma": "^5.18.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "react-icons": "^5.3.0",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.10",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.6.2"
+  }
+}
